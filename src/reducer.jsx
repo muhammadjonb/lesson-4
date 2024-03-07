@@ -1,4 +1,4 @@
-const reducer = (action, state) => {
+const reducer = (state, action) => {
   if (action.type === "CLEAR") {
     return { ...state, cart: [] };
   }
